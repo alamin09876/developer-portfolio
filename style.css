@@ -43,4 +43,36 @@ h1{
     background-position:right;
 
 }
+.top-exprience{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+.exprience{
+    display:flex;
+}
+.exprience-item{
+    width:40%;
+    margin-left: 80px;
+    box-shadow: 5px 7px 40px grey;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    text-align: justify;
+    height: 80%;
+}
+.exprience-item p{
+    padding-bottom:40px;
+}
+#full-stack-web-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align:center;
+}
 
