@@ -1,18 +1,23 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
 }
 h1{
     font-size:40px;
+    padding-top: 10px;
 }
 .name-color{
     color:brown;
 }
 .content{
     display:flex;
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
 }
 .content-one{
     width:50%;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 .content-one p{
     padding-bottom: 7px;
@@ -22,6 +27,7 @@ h1{
 }
 .content-two img{
     width:80%;
+    margin-left:80px;
 }
 .button-hire{
     text-decoration: none;
@@ -29,5 +35,12 @@ h1{
     background-image: linear-gradient(orange, brown);
     padding: 15px 20px;
     border-radius: 5px;
+}
+.big-dream{
+    display:flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+
 }
 
